@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blackstone Labs</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #050505;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 28px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #222;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    .gold {
+      color: #d4af37;
+    }
+
+    .hero {
+      min-height: 78vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 60px 8%;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .hero h1 {
+      font-size: 58px;
+      line-height: 1.05;
+      max-width: 850px;
+      margin-bottom: 25px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #c7c7c7;
+      max-width: 700px;
+      margin-bottom: 35px;
+    }
+
+    .btn {
+      display: inline-block;
+      width: fit-content;
+      background: #d4af37;
+      color: #050505;
+      padding: 16px 28px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+      transition: .3s;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      opacity: .9;
+    }
+
+    .services {
+      padding: 80px 8%;
+      background: #0c0c0c;
+    }
+
+    .services h2 {
+      text-align: center;
+      font-size: 38px;
+      margin-bottom: 45px;
+    }
+
+    .grid {
+      max-width: 1100px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #111;
+      border: 1px solid #262626;
+      border-radius: 10px;
+      padding: 28px;
+    }
+
+    .card h3 {
+      color: #d4af37;
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      color: #bdbdbd;
+    }
+
+    .cta {
+      text-align: center;
+      padding: 90px 8%;
+    }
+
+    .cta h2 {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+
+    .cta p {
+      color: #bdbdbd;
+      margin-bottom: 28px;
+    }
+
+    footer {
+      border-top: 1px solid #222;
+      padding: 30px;
+      text-align: center;
+      color: #777;
+    }
+
+    @media(max-width: 700px) {
+      .hero h1 {
+        font-size: 40px;
+      }
+
+      .hero p {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">
+    BLACKSTONE <span class="gold">LABS</span>
+  </div>
+</header>
+
+<section class="hero">
+  <p class="gold">IA + AUTOMATIZACIÓN COMERCIAL</p>
+
+  <h1>
+    Tu negocio no necesita más prospectos.
+    <span class="gold">Necesita responder mejor.</span>
+  </h1>
+
+  <p>
+    Implementamos sistemas inteligentes para responder, dar seguimiento,
+    calificar prospectos y convertir más conversaciones en oportunidades comerciales.
+  </p>
+
+  <a href="#contacto" class="btn">Hablar con Blackstone</a>
+</section>
+
+<section class="services">
+  <h2>Nuestro sistema</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <h3>WhatsApp con IA</h3>
+      <p>Respuesta automática, calificación de prospectos y seguimiento comercial.</p>
+    </div>
+
+    <div class="card">
+      <h3>Redes sociales</h3>
+      <p>Automatización de conversaciones provenientes de Instagram y Facebook.</p>
+    </div>
+
+    <div class="card">
+      <h3>Seguimiento</h3>
+      <p>Recuperamos oportunidades que dejaron de responder.</p>
+    </div>
+
+    <div class="card">
+      <h3>Agenda automática</h3>
+      <p>Los prospectos pueden avanzar hacia una reunión sin intervención manual.</p>
+    </div>
+
+    <div class="card">
+      <h3>CRM</h3>
+      <p>Organizamos los prospectos y su estado dentro del proceso comercial.</p>
+    </div>
+
+    <div class="card">
+      <h3>IA comercial</h3>
+      <p>Agentes entrenados con la información específica de cada negocio.</p>
+    </div>
+
+  </div>
+</section>
+
+<section class="cta" id="contacto">
+  <h2>
+    Convierte conversaciones en
+    <span class="gold">oportunidades.</span>
+  </h2>
+
+  <p>
+    Descubre qué partes de tu proceso comercial puedes automatizar.
+  </p>
+
+  <a href="#" class="btn">Solicitar diagnóstico</a>
+</section>
+
+<footer>
+  © 2026 Blackstone Labs
+</footer>
+
+</body>
+</html>
